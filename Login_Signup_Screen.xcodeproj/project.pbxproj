@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		153450CA2B86677700C814BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153450C92B86677700C814BC /* AppDelegate.swift */; };
 		153450CC2B86677700C814BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153450CB2B86677700C814BC /* SceneDelegate.swift */; };
-		153450CE2B86677700C814BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153450CD2B86677700C814BC /* ViewController.swift */; };
+		153450CE2B86677700C814BC /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153450CD2B86677700C814BC /* SingUpViewController.swift */; };
 		153450D12B86677700C814BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153450CF2B86677700C814BC /* Main.storyboard */; };
 		153450D32B86677800C814BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153450D22B86677800C814BC /* Assets.xcassets */; };
 		153450D62B86677800C814BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153450D42B86677800C814BC /* LaunchScreen.storyboard */; };
+		156C02842B8F262E00F746E3 /* CheckEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C02832B8F262E00F746E3 /* CheckEmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		153450C62B86677700C814BC /* Login_Signup_Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Signup_Screen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		153450C92B86677700C814BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		153450CB2B86677700C814BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		153450CD2B86677700C814BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		153450CD2B86677700C814BC /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		153450D02B86677700C814BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		153450D22B86677800C814BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153450D52B86677800C814BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		153450D72B86677800C814BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156C02832B8F262E00F746E3 /* CheckEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		153450BD2B86677600C814BC = {
 			isa = PBXGroup;
 			children = (
+				156C02832B8F262E00F746E3 /* CheckEmailViewController.swift */,
 				153450C82B86677700C814BC /* Login_Signup_Screen */,
 				153450C72B86677700C814BC /* Products */,
 			);
@@ -58,7 +61,7 @@
 			children = (
 				153450C92B86677700C814BC /* AppDelegate.swift */,
 				153450CB2B86677700C814BC /* SceneDelegate.swift */,
-				153450CD2B86677700C814BC /* ViewController.swift */,
+				153450CD2B86677700C814BC /* SingUpViewController.swift */,
 				153450CF2B86677700C814BC /* Main.storyboard */,
 				153450D22B86677800C814BC /* Assets.xcassets */,
 				153450D42B86677800C814BC /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				153450CE2B86677700C814BC /* ViewController.swift in Sources */,
+				153450CE2B86677700C814BC /* SingUpViewController.swift in Sources */,
 				153450CA2B86677700C814BC /* AppDelegate.swift in Sources */,
+				156C02842B8F262E00F746E3 /* CheckEmailViewController.swift in Sources */,
 				153450CC2B86677700C814BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
